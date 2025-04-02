@@ -27,7 +27,7 @@ function NameTag(){
   return(
     <>
     <div className = "containerName">
-      <p>Welcome to my portfolio website!</p>
+      <h3>Welcome to my portfolio website!</h3>
     </div>
     </>
   )
@@ -68,10 +68,14 @@ function MyProjects(){
   return(
     <>
     <div className = "Projects">
-    <h2>Projects:</h2>
+    <h3>Projects:</h3>
     <ul>
+      <div className = "Planets">
       <li>Planet Creation App</li>
+      </div>
+      {/*<div className = "BMI">
       <li>BMI Fitness App</li>
+      </div>*/}
     </ul>
     </div>
     </>
@@ -114,8 +118,9 @@ function MyTechStack(){
 function MyContact(){
   return (
     <div className = "Contact">
-      <h1> Contact info: </h1>
+      <h1> Contact info and code repistory: </h1>
         <p>You can contact me at my email :<img src= {gmail} width ="20" height = "20" alt="gmail"/> nirokal92@gmail.com</p>
+        <a href="https://github.com/nirohero">Code repisotory</a>
     </div>
   )
 }
