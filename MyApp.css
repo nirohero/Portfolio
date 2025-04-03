@@ -1,0 +1,130 @@
+.MyApp{
+    text-align:center;
+    background-repeat: none;
+    background-color: beige;
+}
+.navbar{
+    text-align: left;
+    border: 1px solid teal;
+    position: sticky;
+    top: 0;
+    padding : 10px;
+    width: 200px;
+    border-radius: 25px;
+    
+}
+
+.Bio{
+    display:flex;
+    width:500px;
+    margin:auto;
+    background-color: aliceblue;
+    border: 1px solid teal;
+    border-radius: 25px;
+}
+.Bio:hover{
+  background-color:lightgoldenrodyellow;
+}
+.ImageBio{
+    float:left;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.TextBio{
+    float:right;
+    flex:60%;
+    padding:10px;
+}
+/*vertical line*/
+.firstV{
+  height: 25px;
+  width:0px;
+  border: 1px solid teal;
+  margin:auto;
+}
+/*circles*/
+.circle{
+  height:20px;
+  width:20px;
+  border-radius:100px;  
+  margin: auto;
+  background: teal;
+}
+.circle:hover{
+  height:30px;
+  width:30px;
+  background:blue;
+}
+li a:hover{
+    background-color: #555;
+    color:white;
+}
+.Projects{
+  display:flex;
+  flex-direction:column;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid teal;
+  padding: 15px;
+  width: 50%;
+  background-color: aliceblue;
+}
+.Planets{
+/*add background image that has a portion of the website, include description as well*/
+margin:auto;
+font-style:oblique;
+font-size:20px;
+font-family: Trattatello;
+color:white;
+background-image: url('spacebg2.jpg');
+width:50%;
+height:50px;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius:100px;
+padding-bottom:200px;
+}
+.Planets:hover{
+  height:300px;
+  border: 3px solid teal;
+}
+.Projects:hover{
+  background-color: lightgoldenrodyellow;
+}
+.BMI{
+  margin:auto;
+  font-style:oblique;
+  background-image: url('artofme1.PNG');
+  width:30%;
+  height:300px;
+  border-radius:100px;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+.Experience{
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    width: 50%;
+    border: 1px solid teal;
+    padding: 15px;
+    background-color: aliceblue;
+}
+.Experience h3{
+  font-family: Trattatello;
+}
+.Experience:hover{
+  background-color:lightgoldenrodyellow;
+}
+.Tech{
+  border: 1px solid teal;
+  column-count: 7;
+  column-rule-style: dotted;
+  padding: 10px;
+}
+ul{
+    list-style-type: none;
+}
