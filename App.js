@@ -121,6 +121,7 @@ function MyContact(){
       <h1> Contact info and code repistory: </h1>
         <p>You can contact me at my email :<img src= {gmail} width ="20" height = "20" alt="gmail"/> nirokal92@gmail.com</p>
         <a href="https://github.com/nirohero">Code repisotory</a>
+        <p>I plan to continue to develop my software engineering skills by making more projects like this!</p>
     </div>
   )
 }
