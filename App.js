@@ -39,7 +39,7 @@ function AboutMe(){
     <div className ="Bio">
     <div className ="ImageBio"><img src = {selfie} alt ="Pic of Niro" width = "130" height ="130"/></div>
     <div className ="TextBio"><h3>Hi I'm Niro!</h3>
-    <p>I'm a warrior who refines his skills daily. I like to code, play video games, exercise, have meaningful converstations and help others acheivet their goals!</p>
+    <p>I'm a guy who refines his skills daily. I like to code, play video games, exercise, have meaningful converstations and help others acheivet their goals!</p>
     </div>
     </div>
     </div>
@@ -95,6 +95,8 @@ function MyExperience(){
      <li><b><img src ={work} alt ="work icon" width = "20" height = "20"/>Personal Trainer at GoodLife</b></li>
      <p>Recently I took up a role as a personal trainer because I've always been working from such a young age and I wanted to meet people directly and help them acheive their fitness goals.</p>
      <p>I had the opportunity to prospect clients and work with them through out their contract, it was great and really helped build my social skills.</p>
+     <li><b><img src={work} alt="work icon" width = "20" height="20"/>Store Associate at Home Depot</b></li>
+     <p>I worked in the lumber department. I helped customers with their projects they were working on by reccomending them products</p>
      </ul>
     </div>
     </>
